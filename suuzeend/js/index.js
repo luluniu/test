@@ -2,7 +2,7 @@
  * Created by Administrator on 2016/8/17 0017.
  */
 window.onload=function(){
-    //¿ØÖÆÍ¼Æ¬ÔÚ²»Í¬µÄÆÁÄ»µÄ´óĞ¡ÊÊÅä
+    //æ§åˆ¶å›¾ç‰‡åœ¨ä¸åŒçš„å±å¹•çš„å¤§å°é€‚é…
     window.onresize=function(){
         var flowp=document.getElementById("flowp");
         var footimg=document.getElementById("footimg");
@@ -18,7 +18,7 @@ window.onload=function(){
             flowp.className="center";
         }
     }
-    //ÔÚÓ¦ÓÃ³¡¾°ºÍ½â¾ö·½°¸µÄµã»÷ÇĞ»»ÀàÃû
+    //åœ¨åº”ç”¨åœºæ™¯å’Œè§£å†³æ–¹æ¡ˆçš„ç‚¹å‡»åˆ‡æ¢ç±»å
     var ul=document.getElementsByClassName("use_ul")[0];
     var lis=ul.children;
     var divs=document.getElementById("use_list").children;
@@ -35,7 +35,7 @@ window.onload=function(){
         }
     }
 
-    //¶¥²¿µ¼º½À¸ÔÚ²»Í¬³ß´çÆÁÄ»µÄÑùÊ½ÇĞ»»ÀàÃû
+    //é¡¶éƒ¨å¯¼èˆªæ åœ¨ä¸åŒå°ºå¯¸å±å¹•çš„æ ·å¼åˆ‡æ¢ç±»å
     var banul=document.getElementById("banner_ul");
     var banlis=banul.children;
     for(var i=0;i<banlis.length;i++){
@@ -46,4 +46,7 @@ window.onload=function(){
             banlis[i].className=" ";
         }
     }
+}
+function abc(){
+    console.log("this is a code");
 }
